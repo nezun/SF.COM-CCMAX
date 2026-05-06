@@ -1,0 +1,15 @@
+{
+  "name": "miransan-sf-benchmark",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "SleepFoundation benchmark and Serbian sleep authority blueprint tooling for miransan.org.",
+  "scripts": {
+    "sf:benchmark": "node scripts/sf-benchmark.mjs",
+    "sf:parity": "node scripts/sf-parity.mjs",
+    "validate": "npm run sf:benchmark && npm run sf:parity"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
