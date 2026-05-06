@@ -1,0 +1,2459 @@
+{
+  "generated_at": "2026-05-06T16:27:03.688Z",
+  "domain": "miransan.org",
+  "url_rules": "Serbian Latin, lowercase, ASCII slugs without diacritics, hyphen-separated, stable canonical URLs.",
+  "canonical_strategy": "One canonical URL per article; noindex drafts/review pages; parameter URLs canonicalize to clean paths.",
+  "hreflang_strategy": "Add sr-RS first; add sr-BA, sr-ME, hr-HR, mk-MK only after localized content exists.",
+  "pages": [
+    {
+      "priority": "P0",
+      "slug": "/",
+      "title": "Miran San: vodiči za bolji san u Srbiji",
+      "intent": "brand/navigation",
+      "template": "homepage",
+      "target_keyword": "spavanje",
+      "secondary_keywords": [
+        "san",
+        "dušeci",
+        "jastuci"
+      ],
+      "monetization_angle": "newsletter + hub routing",
+      "internal_links": [
+        "/duseci",
+        "/jastuci",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P0",
+      "slug": "/duseci",
+      "title": "Dušeci: vodič za kupovinu u Srbiji",
+      "intent": "commercial hub",
+      "template": "category_hub",
+      "target_keyword": "dušeci",
+      "secondary_keywords": [
+        "dušeci srbija",
+        "najbolji dušeci"
+      ],
+      "monetization_angle": "best-of links",
+      "internal_links": [
+        "/duseci/najbolji-duseci",
+        "/duseci/kako-izabrati-dusek"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P0",
+      "slug": "/duseci/najbolji-duseci",
+      "title": "Najbolji dušeci u Srbiji",
+      "intent": "commercial",
+      "template": "best_of",
+      "target_keyword": "najbolji dušeci",
+      "secondary_keywords": [
+        "dušeci cena",
+        "dušeci iskustva"
+      ],
+      "monetization_angle": "affiliate/direct deal",
+      "internal_links": [
+        "/duseci",
+        "/duseci/kako-izabrati-dusek"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P0",
+      "slug": "/duseci/kako-izabrati-dusek",
+      "title": "Kako izabrati dušek",
+      "intent": "hybrid",
+      "template": "buying_guide",
+      "target_keyword": "kako izabrati dušek",
+      "secondary_keywords": [
+        "tvrdoća dušeka",
+        "dimenzije dušeka"
+      ],
+      "monetization_angle": "internal commercial links",
+      "internal_links": [
+        "/duseci/najbolji-duseci"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P0",
+      "slug": "/duseci/najbolji-dusek-za-bol-u-ledjima",
+      "title": "Najbolji dušek za bol u leđima",
+      "intent": "commercial/YMYL",
+      "template": "best_of",
+      "target_keyword": "dušek za bol u leđima",
+      "secondary_keywords": [
+        "ortopedski dušek",
+        "tvrd dušek"
+      ],
+      "monetization_angle": "affiliate with medical caution",
+      "internal_links": [
+        "/bol-u-ledjima-i-spavanje",
+        "/duseci/najbolji-duseci"
+      ],
+      "estimated_effort": "M",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P0",
+      "slug": "/duseci/najbolji-dusek-za-bocno-spavanje",
+      "title": "Najbolji dušek za spavanje na boku",
+      "intent": "commercial",
+      "template": "best_of",
+      "target_keyword": "dušek za spavanje na boku",
+      "secondary_keywords": [
+        "bočni spavači",
+        "ramena kukovi"
+      ],
+      "monetization_angle": "affiliate/direct deal",
+      "internal_links": [
+        "/polozaji-spavanja/spavanje-na-boku"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P0",
+      "slug": "/duseci/dimenzije-duseka",
+      "title": "Dimenzije dušeka u Srbiji",
+      "intent": "informational",
+      "template": "buying_guide",
+      "target_keyword": "dimenzije dušeka",
+      "secondary_keywords": [
+        "90x200",
+        "160x200",
+        "180x200"
+      ],
+      "monetization_angle": "commercial links",
+      "internal_links": [
+        "/duseci/najbolji-duseci"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P0",
+      "slug": "/jastuci",
+      "title": "Jastuci: vodiči i preporuke",
+      "intent": "commercial hub",
+      "template": "category_hub",
+      "target_keyword": "jastuci",
+      "secondary_keywords": [
+        "najbolji jastuci",
+        "anatomski jastuk"
+      ],
+      "monetization_angle": "best-of links",
+      "internal_links": [
+        "/jastuci/najbolji-jastuci"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P0",
+      "slug": "/jastuci/najbolji-jastuci",
+      "title": "Najbolji jastuci u Srbiji",
+      "intent": "commercial",
+      "template": "best_of",
+      "target_keyword": "najbolji jastuci",
+      "secondary_keywords": [
+        "anatomski jastuk",
+        "jastuk za vrat"
+      ],
+      "monetization_angle": "affiliate/direct deal",
+      "internal_links": [
+        "/jastuci",
+        "/jastuci/kako-izabrati-jastuk"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P0",
+      "slug": "/jastuci/kako-izabrati-jastuk",
+      "title": "Kako izabrati jastuk",
+      "intent": "hybrid",
+      "template": "buying_guide",
+      "target_keyword": "kako izabrati jastuk",
+      "secondary_keywords": [
+        "visina jastuka",
+        "materijal jastuka"
+      ],
+      "monetization_angle": "commercial links",
+      "internal_links": [
+        "/jastuci/najbolji-jastuci"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P0",
+      "slug": "/problemi-sa-spavanjem",
+      "title": "Problemi sa spavanjem",
+      "intent": "health hub",
+      "template": "category_hub",
+      "target_keyword": "problemi sa spavanjem",
+      "secondary_keywords": [
+        "nesanica",
+        "hrkanje",
+        "apneja"
+      ],
+      "monetization_angle": "newsletter/tool routing",
+      "internal_links": [
+        "/nesanica",
+        "/hrkanje",
+        "/apneja-u-snu"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P0",
+      "slug": "/nesanica",
+      "title": "Nesanica: simptomi, uzroci i šta može pomoći",
+      "intent": "YMYL informational",
+      "template": "condition_article",
+      "target_keyword": "nesanica",
+      "secondary_keywords": [
+        "insomnija",
+        "ne mogu da spavam"
+      ],
+      "monetization_angle": "newsletter + doctor guidance",
+      "internal_links": [
+        "/higijena-spavanja",
+        "/sta-kad-ne-mogu-da-spavam"
+      ],
+      "estimated_effort": "M",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P0",
+      "slug": "/hrkanje",
+      "title": "Hrkanje: uzroci, rizici i opcije",
+      "intent": "YMYL hybrid",
+      "template": "condition_article",
+      "target_keyword": "hrkanje",
+      "secondary_keywords": [
+        "kako prestati hrkati",
+        "hrkanje uzroci"
+      ],
+      "monetization_angle": "anti-snoring cautious links",
+      "internal_links": [
+        "/apneja-u-snu",
+        "/proizvodi/protiv-hrkanja"
+      ],
+      "estimated_effort": "M",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P0",
+      "slug": "/apneja-u-snu",
+      "title": "Apneja u snu: simptomi i kada tražiti pomoć",
+      "intent": "YMYL informational",
+      "template": "condition_article",
+      "target_keyword": "apneja u snu",
+      "secondary_keywords": [
+        "sleep apnea",
+        "prestanak disanja u snu"
+      ],
+      "monetization_angle": "sleep clinic lead-gen after review",
+      "internal_links": [
+        "/hrkanje",
+        "/cpap"
+      ],
+      "estimated_effort": "M",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P0",
+      "slug": "/higijena-spavanja",
+      "title": "Higijena spavanja",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "higijena spavanja",
+      "secondary_keywords": [
+        "navike za bolji san"
+      ],
+      "monetization_angle": "newsletter",
+      "internal_links": [
+        "/kalkulator-spavanja",
+        "/nesanica"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P0",
+      "slug": "/kalkulator-spavanja",
+      "title": "Kalkulator spavanja",
+      "intent": "tool",
+      "template": "tool_calculator",
+      "target_keyword": "kalkulator spavanja",
+      "secondary_keywords": [
+        "kada leći",
+        "kada ustati"
+      ],
+      "monetization_angle": "email capture",
+      "internal_links": [
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P0",
+      "slug": "/o-nama",
+      "title": "O nama",
+      "intent": "trust",
+      "template": "about",
+      "target_keyword": "o nama miran san",
+      "secondary_keywords": [
+        "miran san"
+      ],
+      "monetization_angle": "trust",
+      "internal_links": [
+        "/uredjivacka-politika"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P0",
+      "slug": "/uredjivacka-politika",
+      "title": "Uredjivačka politika",
+      "intent": "trust",
+      "template": "editorial_policy",
+      "target_keyword": "uredjivačka politika",
+      "secondary_keywords": [
+        "fact checking"
+      ],
+      "monetization_angle": "trust",
+      "internal_links": [
+        "/o-nama"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P0",
+      "slug": "/affiliate-disclosure",
+      "title": "Affiliate disclosure",
+      "intent": "trust/commercial",
+      "template": "affiliate_disclosure",
+      "target_keyword": "affiliate disclosure",
+      "secondary_keywords": [
+        "sponzorisani sadržaj"
+      ],
+      "monetization_angle": "trust",
+      "internal_links": [
+        "/uredjivacka-politika"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P0",
+      "slug": "/medicinski-disclaimer",
+      "title": "Medicinski disclaimer",
+      "intent": "trust/YMYL",
+      "template": "medical_disclaimer",
+      "target_keyword": "medicinski disclaimer",
+      "secondary_keywords": [
+        "nije medicinski savet"
+      ],
+      "monetization_angle": "trust",
+      "internal_links": [
+        "/uredjivacka-politika"
+      ],
+      "estimated_effort": "M",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/memorijska-pena",
+      "title": "Memorijska Pena",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "memorijska pena",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/latex-duseci",
+      "title": "Latex Duseci",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "latex duseci",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/dzepicasto-jezgro",
+      "title": "Dzepicasto Jezgro",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "dzepicasto jezgro",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/tvrdi-duseci",
+      "title": "Tvrdi Duseci",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "tvrdi duseci",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/meki-duseci",
+      "title": "Meki Duseci",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "meki duseci",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/dusek-za-parove",
+      "title": "Dusek Za Parove",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "dusek za parove",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/dusek-za-decu",
+      "title": "Dusek Za Decu",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "dusek za decu",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/nadduseci",
+      "title": "Nadduseci",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "nadduseci",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/posteljina",
+      "title": "Posteljina",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "posteljina",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/carsavi",
+      "title": "Carsavi",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "carsavi",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/tesko-cebe",
+      "title": "Tesko Cebe",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "tesko cebe",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/hladjenje-letnje-vrucine",
+      "title": "Hladjenje Letnje Vrucine",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "hladjenje letnje vrucine",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/buka-u-zgradi",
+      "title": "Buka U Zgradi",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "buka u zgradi",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/smenski-rad",
+      "title": "Smenski Rad",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "smenski rad",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/stres-i-san",
+      "title": "Stres I San",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "stres i san",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/melatonin",
+      "title": "Melatonin",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "melatonin",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/magnezijum-za-san",
+      "title": "Magnezijum Za San",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "magnezijum za san",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/cpap",
+      "title": "Cpap",
+      "intent": "hybrid",
+      "template": "buying_guide",
+      "target_keyword": "cpap",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/test-spavanja",
+      "title": "Test Spavanja",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "test spavanja",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/bebe-i-san",
+      "title": "Bebe I San",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "bebe i san",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/koliko-sna-je-potrebno",
+      "title": "Koliko Sna Je Potrebno",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "koliko sna je potrebno",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/cirkadijalni-ritam",
+      "title": "Cirkadijalni Ritam",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "cirkadijalni ritam",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/faze-sna",
+      "title": "Faze Sna",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "faze sna",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/spavanje-na-boku",
+      "title": "Spavanje Na Boku",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "spavanje na boku",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/spavanje-na-ledjima",
+      "title": "Spavanje Na Ledjima",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "spavanje na ledjima",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/spavanje-na-stomaku",
+      "title": "Spavanje Na Stomaku",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "spavanje na stomaku",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/budjenje-nocu",
+      "title": "Budjenje Nocu",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "budjenje nocu",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/dnevna-pospanost",
+      "title": "Dnevna Pospanost",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "dnevna pospanost",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/bruksizam",
+      "title": "Bruksizam",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "bruksizam",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P1",
+      "slug": "/sindrom-nemirnih-nogu",
+      "title": "Sindrom Nemirnih Nogu",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "sindrom nemirnih nogu",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/duseci/ortopedski-duseci",
+      "title": "Ortopedski Duseci",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "ortopedski duseci",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/duseci/najbolji-dusek-160x200",
+      "title": "Najbolji Dusek 160x200",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "najbolji dusek 160x200",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/duseci/najbolji-dusek-180x200",
+      "title": "Najbolji Dusek 180x200",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "najbolji dusek 180x200",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/duseci/dusek-za-podno-grejanje",
+      "title": "Dusek Za Podno Grejanje",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "dusek za podno grejanje",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/duseci/dusek-za-mali-stan",
+      "title": "Dusek Za Mali Stan",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "dusek za mali stan",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/duseci/dostava-i-montaza",
+      "title": "Dostava I Montaza",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "dostava i montaza",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/duseci/garancija-i-povracaj",
+      "title": "Garancija I Povracaj",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "garancija i povracaj",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/duseci/kupovina-na-rate",
+      "title": "Kupovina Na Rate",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "kupovina na rate",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/jastuci/anatomski-jastuk",
+      "title": "Anatomski Jastuk",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "anatomski jastuk",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/jastuci/jastuk-za-vrat",
+      "title": "Jastuk Za Vrat",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "jastuk za vrat",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/jastuci/jastuk-za-bocno-spavanje",
+      "title": "Jastuk Za Bocno Spavanje",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "jastuk za bocno spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/jastuci/jastuk-za-hrkanje",
+      "title": "Jastuk Za Hrkanje",
+      "intent": "hybrid",
+      "template": "buying_guide",
+      "target_keyword": "jastuk za hrkanje",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/posteljina/najbolja-posteljina",
+      "title": "Najbolja Posteljina",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "najbolja posteljina",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/posteljina/pamuk-vs-saten",
+      "title": "Pamuk Vs Saten",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "pamuk vs saten",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/posteljina/letnja-posteljina",
+      "title": "Letnja Posteljina",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "letnja posteljina",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/proizvodi/protiv-hrkanja",
+      "title": "Protiv Hrkanja",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "protiv hrkanja",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/proizvodi/beli-sum",
+      "title": "Beli Sum",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "beli sum",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/proizvodi/maske-za-spavanje",
+      "title": "Maske Za Spavanje",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "maske za spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/proizvodi/sleep-tracker",
+      "title": "Sleep Tracker",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "sleep tracker",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/proizvodi/svetlo-za-budjenje",
+      "title": "Svetlo Za Budjenje",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "svetlo za budjenje",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/proizvodi/cpap-aparati",
+      "title": "Cpap Aparati",
+      "intent": "hybrid",
+      "template": "buying_guide",
+      "target_keyword": "cpap aparati",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/proizvodi/cpap-maske",
+      "title": "Cpap Maske",
+      "intent": "hybrid",
+      "template": "buying_guide",
+      "target_keyword": "cpap maske",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/vodici/kafa-i-san",
+      "title": "Kafa I San",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "kafa i san",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/vodici/alkohol-i-san",
+      "title": "Alkohol I San",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "alkohol i san",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/vodici/ekrani-i-san",
+      "title": "Ekrani I San",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "ekrani i san",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/vodici/temperatura-sobe",
+      "title": "Temperatura Sobe",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "temperatura sobe",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/vodici/san-i-trening",
+      "title": "San I Trening",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "san i trening",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/vodici/san-i-ishrana",
+      "title": "San I Ishrana",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "san i ishrana",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/vodici/san-i-menopauza",
+      "title": "San I Menopauza",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "san i menopauza",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/vodici/san-i-trudnoca",
+      "title": "San I Trudnoca",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "san i trudnoca",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/vodici/san-kod-tinejdzera",
+      "title": "San Kod Tinejdzera",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "san kod tinejdzera",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/bebe/san-beba",
+      "title": "San Beba",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "san beba",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/bebe/sleep-training",
+      "title": "Sleep Training",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "sleep training",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/bebe/temperatura-sobe-za-bebu",
+      "title": "Temperatura Sobe Za Bebu",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "temperatura sobe za bebu",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/bebe/regresija-sna",
+      "title": "Regresija Sna",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "regresija sna",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/recnik/insomnija",
+      "title": "Insomnija",
+      "intent": "informational",
+      "template": "glossary",
+      "target_keyword": "insomnija",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/recnik/cirkadijalni-ritam",
+      "title": "Cirkadijalni Ritam",
+      "intent": "informational",
+      "template": "glossary",
+      "target_keyword": "cirkadijalni ritam",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/recnik/rem-faza",
+      "title": "Rem Faza",
+      "intent": "informational",
+      "template": "glossary",
+      "target_keyword": "rem faza",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/recnik/cpap",
+      "title": "Cpap",
+      "intent": "hybrid",
+      "template": "glossary",
+      "target_keyword": "cpap",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P2",
+      "slug": "/recnik/apneja",
+      "title": "Apneja",
+      "intent": "informational",
+      "template": "glossary",
+      "target_keyword": "apneja",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "M/L",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/brendovi/domaci-brendovi-duseka",
+      "title": "Domaci Brendovi Duseka",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "domaci brendovi duseka",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/prodavci/gde-kupiti-dusek-beograd",
+      "title": "Gde Kupiti Dusek Beograd",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "gde kupiti dusek beograd",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/prodavci/gde-kupiti-dusek-novi-sad",
+      "title": "Gde Kupiti Dusek Novi Sad",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "gde kupiti dusek novi sad",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/prodavci/gde-kupiti-dusek-nis",
+      "title": "Gde Kupiti Dusek Nis",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "gde kupiti dusek nis",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/prodavci/gde-kupiti-jastuk",
+      "title": "Gde Kupiti Jastuk",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "gde kupiti jastuk",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/poredjenja/memorijska-pena-vs-latex",
+      "title": "Memorijska Pena Vs Latex",
+      "intent": "commercial",
+      "template": "comparison",
+      "target_keyword": "memorijska pena vs latex",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/poredjenja/tvrd-vs-mek-dusek",
+      "title": "Tvrd Vs Mek Dusek",
+      "intent": "commercial",
+      "template": "comparison",
+      "target_keyword": "tvrd vs mek dusek",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/poredjenja/naddusek-vs-novi-dusek",
+      "title": "Naddusek Vs Novi Dusek",
+      "intent": "commercial",
+      "template": "comparison",
+      "target_keyword": "naddusek vs novi dusek",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/poredjenja/cpap-vs-alternative",
+      "title": "Cpap Vs Alternative",
+      "intent": "hybrid",
+      "template": "comparison",
+      "target_keyword": "cpap vs alternative",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/iskustva/spavanje-u-malom-stanu",
+      "title": "Spavanje U Malom Stanu",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "spavanje u malom stanu",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/iskustva/buka-komsije-san",
+      "title": "Buka Komsije San",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "buka komsije san",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/iskustva/vrucine-i-san",
+      "title": "Vrucine I San",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "vrucine i san",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/istrazivanja/navike-spavanja-srbija",
+      "title": "Navike Spavanja Srbija",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "navike spavanja srbija",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/istrazivanja/cene-duseka-srbija",
+      "title": "Cene Duseka Srbija",
+      "intent": "commercial",
+      "template": "buying_guide",
+      "target_keyword": "cene duseka srbija",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/newsletter/bolji-san-vodic",
+      "title": "Bolji San Vodic",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "bolji san vodic",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/kviz/koji-dusek-mi-odgovara",
+      "title": "Koji Dusek Mi Odgovara",
+      "intent": "commercial",
+      "template": "quiz",
+      "target_keyword": "koji dusek mi odgovara",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/kviz/zasto-ne-mogu-da-spavam",
+      "title": "Zasto Ne Mogu Da Spavam",
+      "intent": "informational",
+      "template": "quiz",
+      "target_keyword": "zasto ne mogu da spavam",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/alati/dnevnik-spavanja",
+      "title": "Dnevnik Spavanja",
+      "intent": "informational",
+      "template": "tool_calculator",
+      "target_keyword": "dnevnik spavanja",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/alati/checklista-za-kupovinu-duseka",
+      "title": "Checklista Za Kupovinu Duseka",
+      "intent": "commercial",
+      "template": "tool_calculator",
+      "target_keyword": "checklista za kupovinu duseka",
+      "secondary_keywords": [],
+      "monetization_angle": "affiliate/direct-deal or lead-gen after disclosure",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/alati/kalkulator-cene-po-godini",
+      "title": "Kalkulator Cene Po Godini",
+      "intent": "informational",
+      "template": "tool_calculator",
+      "target_keyword": "kalkulator cene po godini",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/politika-privatnosti",
+      "title": "Politika Privatnosti",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "politika privatnosti",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/politika-kolacica",
+      "title": "Politika Kolacica",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "politika kolacica",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/uslovi-koriscenja",
+      "title": "Uslovi Koriscenja",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "uslovi koriscenja",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/ispravke",
+      "title": "Ispravke",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "ispravke",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/sponzorisani-sadrzaj",
+      "title": "Sponzorisani Sadrzaj",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "sponzorisani sadrzaj",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "needs_medical_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/metodologija-testiranja",
+      "title": "Metodologija Testiranja",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "metodologija testiranja",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/autori",
+      "title": "Autori",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "autori",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/medicinski-recenzenti",
+      "title": "Medicinski Recenzenti",
+      "intent": "informational",
+      "template": "educational_article",
+      "target_keyword": "medicinski recenzenti",
+      "secondary_keywords": [],
+      "monetization_angle": "newsletter/internal authority",
+      "internal_links": [
+        "/",
+        "/problemi-sa-spavanjem"
+      ],
+      "estimated_effort": "S/M",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-1",
+      "title": "FAQ pitanje 1 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 1 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-2",
+      "title": "FAQ pitanje 2 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 2 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-3",
+      "title": "FAQ pitanje 3 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 3 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-4",
+      "title": "FAQ pitanje 4 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 4 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-5",
+      "title": "FAQ pitanje 5 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 5 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-6",
+      "title": "FAQ pitanje 6 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 6 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-7",
+      "title": "FAQ pitanje 7 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 7 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-8",
+      "title": "FAQ pitanje 8 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 8 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-9",
+      "title": "FAQ pitanje 9 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 9 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-10",
+      "title": "FAQ pitanje 10 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 10 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-11",
+      "title": "FAQ pitanje 11 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 11 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-12",
+      "title": "FAQ pitanje 12 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 12 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-13",
+      "title": "FAQ pitanje 13 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 13 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-14",
+      "title": "FAQ pitanje 14 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 14 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-15",
+      "title": "FAQ pitanje 15 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 15 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-16",
+      "title": "FAQ pitanje 16 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 16 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-17",
+      "title": "FAQ pitanje 17 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 17 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-18",
+      "title": "FAQ pitanje 18 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 18 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-19",
+      "title": "FAQ pitanje 19 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 19 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-20",
+      "title": "FAQ pitanje 20 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 20 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-21",
+      "title": "FAQ pitanje 21 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 21 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-22",
+      "title": "FAQ pitanje 22 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 22 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-23",
+      "title": "FAQ pitanje 23 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 23 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-24",
+      "title": "FAQ pitanje 24 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 24 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-25",
+      "title": "FAQ pitanje 25 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 25 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-26",
+      "title": "FAQ pitanje 26 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 26 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-27",
+      "title": "FAQ pitanje 27 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 27 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-28",
+      "title": "FAQ pitanje 28 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 28 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-29",
+      "title": "FAQ pitanje 29 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 29 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-30",
+      "title": "FAQ pitanje 30 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 30 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-31",
+      "title": "FAQ pitanje 31 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 31 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    },
+    {
+      "priority": "P3",
+      "slug": "/faq/pitanje-32",
+      "title": "FAQ pitanje 32 o spavanju",
+      "intent": "informational long-tail",
+      "template": "faq_hub",
+      "target_keyword": "pitanje 32 spavanje",
+      "secondary_keywords": [],
+      "monetization_angle": "internal authority",
+      "internal_links": [
+        "/faq",
+        "/higijena-spavanja"
+      ],
+      "estimated_effort": "S",
+      "review_status": "editorial_review"
+    }
+  ]
+}

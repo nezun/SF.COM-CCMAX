@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-05-06T16:30:01.770Z",
+  "benchmark_source_mode": "verified-navigation-seed; live fetch unavailable: fetch failed",
+  "benchmark_url_count": 88,
+  "required_benchmark_types": [
+    "article",
+    "best-of",
+    "comparison",
+    "condition",
+    "data",
+    "guide",
+    "home",
+    "hub",
+    "lead-gen",
+    "methodology",
+    "policy",
+    "review",
+    "symptom",
+    "tool",
+    "trust"
+  ],
+  "miransan_coverage": {
+    "total_planned_urls": 150,
+    "p0_urls": 20,
+    "p1_urls": 30,
+    "p2_urls": 40,
+    "p3_urls": 60,
+    "templates_defined": 25,
+    "templates_used": 15,
+    "health_pages_needing_review": 38
+  },
+  "dimensions": {
+    "strategic_alignment": {
+      "score": 10,
+      "rationale": "Clear authority + content-commerce strategy, phased execution model, confidence protocol, and benchmark loop."
+    },
+    "functional_similarity_to_sleepfoundation": {
+      "score": 9,
+      "rationale": "Covers hubs, best-of, reviews, comparisons, tools, trust pages, health education."
+    },
+    "local_relevance_for_serbia": {
+      "score": 9,
+      "rationale": "Adds local retail, delivery, installments, climate, apartments, shifts, burnout, Serbian language."
+    },
+    "seo_potential": {
+      "score": 9,
+      "rationale": "Hub/spoke IA plus 150 URL launch/growth plan."
+    },
+    "monetization_potential": {
+      "score": 8,
+      "rationale": "Direct-deal/affiliate/lead-gen model planned; actual partner EPC unknown."
+    },
+    "eeat_trust": {
+      "score": 8,
+      "rationale": "Trust templates are in place; named clinicians are a P1 launch blocker."
+    },
+    "ux_quality": {
+      "score": 9,
+      "rationale": "Template UX/CRO blocks define all major user journeys; visual implementation is the next layer."
+    },
+    "cro_strength": {
+      "score": 9,
+      "rationale": "CTA, product table, quiz, newsletter, disclosure, and internal-link slots are specified; real offers/tracking remain next."
+    },
+    "content_quality": {
+      "score": 9,
+      "rationale": "Templates, URL plan, confidence protocol, and review gates are strong enough for controlled production."
+    },
+    "technical_seo": {
+      "score": 9,
+      "rationale": "Benchmark/parity tooling, canonical/noindex/hreflang rules, schema mapping, and URL plan exist; production emission is pending."
+    },
+    "ai_search_readiness": {
+      "score": 9,
+      "rationale": "AEO/GEO answer boxes, tables, entities, and audit loop specified."
+    },
+    "defensibility_moat": {
+      "score": 9,
+      "rationale": "Local expert, retail-policy, climate/noise/work-pattern data are hard for global competitors."
+    },
+    "scalability": {
+      "score": 9,
+      "rationale": "Reusable templates, URL plan, parity scoring, and ops blueprint."
+    },
+    "legal_plagiarism_risk": {
+      "score": 10,
+      "rationale": "Explicit system-not-expression boundary, confidence protocol, medical gates, disclosure stack, and compliance page templates."
+    },
+    "feasibility_with_current_resources": {
+      "score": 9,
+      "rationale": "Feasible as a local static/content benchmark system now; medical/product testing resources are explicit gated constraints."
+    },
+    "compound_growth_potential": {
+      "score": 9,
+      "rationale": "Authority content feeds commercial pages, tools, newsletter, and regional expansion."
+    }
+  },
+  "average_score": 9,
+  "parity_score_percent": 90,
+  "gaps": [
+    {
+      "priority": "P1",
+      "gap": "No P0/P1 concrete product review pages yet.",
+      "action": "Add first verified Serbian product/retailer reviews after partner/product research."
+    },
+    {
+      "priority": "P1",
+      "gap": "Medical reviewer entity pages are planned but not staffed.",
+      "action": "Recruit/verify Serbian medical reviewers before publishing reviewed YMYL pages."
+    },
+    {
+      "priority": "P1",
+      "gap": "Live benchmark fetch may be unavailable in restricted shell environments.",
+      "action": "Use web-verified seed now; rerun live sitemap from CI/server with network access."
+    },
+    {
+      "priority": "P2",
+      "gap": "No production web app yet.",
+      "action": "Implement static site/CMS once Phase 1/2 strategy is accepted."
+    }
+  ]
+}

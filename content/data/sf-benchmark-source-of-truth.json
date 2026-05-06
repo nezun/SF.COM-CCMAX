@@ -1,0 +1,1548 @@
+{
+  "generated_at": "2026-05-06T16:30:01.306Z",
+  "source_mode": "verified-navigation-seed; live fetch unavailable: fetch failed",
+  "benchmark_domain": "sleepfoundation.org",
+  "total_urls": 88,
+  "counts": {
+    "by_type": {
+      "home": 1,
+      "best-of": 35,
+      "guide": 12,
+      "comparison": 1,
+      "review": 2,
+      "hub": 4,
+      "lead-gen": 1,
+      "article": 9,
+      "condition": 10,
+      "symptom": 1,
+      "tool": 2,
+      "data": 1,
+      "trust": 3,
+      "policy": 5,
+      "methodology": 1
+    },
+    "by_intent": {
+      "hybrid": 6,
+      "commercial": 40,
+      "informational": 32,
+      "lead-gen": 1,
+      "trust": 7,
+      "trust-commercial": 2
+    },
+    "by_category": {
+      "trust-commercial": 2,
+      "mattresses": 21,
+      "bedding": 11,
+      "sleep-solutions": 14,
+      "sleep-health": 26,
+      "baby-sleep": 5,
+      "trust": 9
+    }
+  },
+  "strategic_patterns": [
+    "[VERIFIED] Navigation separates Sleep Products, Sleep Solutions, Sleep Health, and About/Trust areas.",
+    "[VERIFIED] Commercial best-of/review/comparison pages are mixed with health education and tools.",
+    "[VERIFIED] Trust pages include editorial policy, product testing methodology, advertising disclosure, team, and medical advisory board.",
+    "[HIGH-CONFIDENCE INFERENCE] The funnel uses health/informational pages for topical authority and commercial pages/tools for monetization capture."
+  ],
+  "hub_child_relationships": [
+    {
+      "path": "/",
+      "parent": null,
+      "type": "home",
+      "category": "trust-commercial",
+      "intent": "hybrid"
+    },
+    {
+      "path": "/mattresses",
+      "parent": "/mattresses",
+      "type": "best-of",
+      "category": "mattresses",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-mattress/best-mattress-side-sleepers",
+      "parent": "/mattresses",
+      "type": "best-of",
+      "category": "mattresses",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-mattress/best-mattress-back-pain",
+      "parent": "/mattresses",
+      "type": "best-of",
+      "category": "mattresses",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-mattress/best-mattress-hip-pain",
+      "parent": "/mattresses",
+      "type": "best-of",
+      "category": "mattresses",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-mattress/best-mattress-heavy-people",
+      "parent": "/mattresses",
+      "type": "best-of",
+      "category": "mattresses",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-mattress/memory-foam-mattress",
+      "parent": "/mattresses",
+      "type": "best-of",
+      "category": "mattresses",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-mattress/latex-mattress",
+      "parent": "/mattresses",
+      "type": "best-of",
+      "category": "mattresses",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-mattress/innerspring-mattress",
+      "parent": "/mattresses",
+      "type": "best-of",
+      "category": "mattresses",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-mattress/hybrid-mattress",
+      "parent": "/mattresses",
+      "type": "best-of",
+      "category": "mattresses",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-mattress/cooling-mattress",
+      "parent": "/mattresses",
+      "type": "best-of",
+      "category": "mattresses",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-mattress/firm-mattress",
+      "parent": "/mattresses",
+      "type": "best-of",
+      "category": "mattresses",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-mattress/organic-mattress",
+      "parent": "/mattresses",
+      "type": "best-of",
+      "category": "mattresses",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-mattress/most-comfortable-mattress",
+      "parent": "/mattresses",
+      "type": "best-of",
+      "category": "mattresses",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-mattress/mattress-in-a-box",
+      "parent": "/mattresses",
+      "type": "best-of",
+      "category": "mattresses",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-mattress/best-affordable-mattress",
+      "parent": "/mattresses",
+      "type": "best-of",
+      "category": "mattresses",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-mattress/best-king-size-mattress",
+      "parent": "/mattresses",
+      "type": "best-of",
+      "category": "mattresses",
+      "intent": "commercial"
+    },
+    {
+      "path": "/mattress-information/mattress-sizes",
+      "parent": "/mattresses",
+      "type": "guide",
+      "category": "mattresses",
+      "intent": "informational"
+    },
+    {
+      "path": "/mattress-information/what-is-memory-foam",
+      "parent": "/mattresses",
+      "type": "guide",
+      "category": "mattresses",
+      "intent": "informational"
+    },
+    {
+      "path": "/mattress-comparisons/nectar-vs-casper",
+      "parent": "/mattresses",
+      "type": "comparison",
+      "category": "mattresses",
+      "intent": "commercial"
+    },
+    {
+      "path": "/mattress-reviews/casper-mattress-review",
+      "parent": "/mattresses",
+      "type": "review",
+      "category": "mattresses",
+      "intent": "commercial"
+    },
+    {
+      "path": "/mattress-reviews/saatva-mattress-review",
+      "parent": "/mattresses",
+      "type": "review",
+      "category": "mattresses",
+      "intent": "commercial"
+    },
+    {
+      "path": "/bedding",
+      "parent": "/bedding",
+      "type": "hub",
+      "category": "bedding",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-pillows",
+      "parent": "/bedding",
+      "type": "best-of",
+      "category": "bedding",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-pillows/best-pillows-side-sleepers",
+      "parent": "/bedding",
+      "type": "best-of",
+      "category": "bedding",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-pillows/best-pillows-neck-pain",
+      "parent": "/bedding",
+      "type": "best-of",
+      "category": "bedding",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-sheets",
+      "parent": "/bedding",
+      "type": "best-of",
+      "category": "bedding",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-sheets/best-cooling-sheets",
+      "parent": "/bedding",
+      "type": "best-of",
+      "category": "bedding",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-weighted-blankets",
+      "parent": "/bedding",
+      "type": "best-of",
+      "category": "bedding",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-comforters",
+      "parent": "/bedding",
+      "type": "best-of",
+      "category": "bedding",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-mattress-toppers",
+      "parent": "/bedding",
+      "type": "best-of",
+      "category": "bedding",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-mattress-pads",
+      "parent": "/bedding",
+      "type": "best-of",
+      "category": "bedding",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-mattress-protectors",
+      "parent": "/bedding",
+      "type": "best-of",
+      "category": "bedding",
+      "intent": "commercial"
+    },
+    {
+      "path": "/sleep-solutions",
+      "parent": "/sleep-solutions",
+      "type": "hub",
+      "category": "sleep-solutions",
+      "intent": "hybrid"
+    },
+    {
+      "path": "/sleep-studies/at-home-sleep-study",
+      "parent": "/sleep-solutions",
+      "type": "lead-gen",
+      "category": "sleep-solutions",
+      "intent": "commercial"
+    },
+    {
+      "path": "/sleep-studies/how-does-a-sleep-study-work",
+      "parent": "/sleep-solutions",
+      "type": "guide",
+      "category": "sleep-solutions",
+      "intent": "informational"
+    },
+    {
+      "path": "/sleep-studies/how-much-does-a-sleep-study-cost",
+      "parent": "/sleep-solutions",
+      "type": "guide",
+      "category": "sleep-solutions",
+      "intent": "hybrid"
+    },
+    {
+      "path": "/best-cpap-machine",
+      "parent": "/sleep-solutions",
+      "type": "best-of",
+      "category": "sleep-solutions",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-cpap-masks",
+      "parent": "/sleep-solutions",
+      "type": "best-of",
+      "category": "sleep-solutions",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-anti-snoring-mouthpieces-and-mouthguards",
+      "parent": "/sleep-solutions",
+      "type": "best-of",
+      "category": "sleep-solutions",
+      "intent": "commercial"
+    },
+    {
+      "path": "/snoring/mouth-taping",
+      "parent": "/sleep-health",
+      "type": "article",
+      "category": "sleep-health",
+      "intent": "informational"
+    },
+    {
+      "path": "/sleep-apnea/cpap-alternatives",
+      "parent": "/sleep-solutions",
+      "type": "guide",
+      "category": "sleep-solutions",
+      "intent": "hybrid"
+    },
+    {
+      "path": "/best-sleep-apps",
+      "parent": "/sleep-solutions",
+      "type": "best-of",
+      "category": "sleep-solutions",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-sleep-supplements/best-magnesium-supplements",
+      "parent": "/sleep-solutions",
+      "type": "best-of",
+      "category": "sleep-solutions",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-sleep-supplements",
+      "parent": "/sleep-solutions",
+      "type": "best-of",
+      "category": "sleep-solutions",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-sleep-trackers",
+      "parent": "/sleep-solutions",
+      "type": "best-of",
+      "category": "sleep-solutions",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-white-noise-machines",
+      "parent": "/sleep-solutions",
+      "type": "best-of",
+      "category": "sleep-solutions",
+      "intent": "commercial"
+    },
+    {
+      "path": "/best-adjustable-beds",
+      "parent": "/sleep-solutions",
+      "type": "best-of",
+      "category": "sleep-solutions",
+      "intent": "commercial"
+    },
+    {
+      "path": "/sleep-health",
+      "parent": "/sleep-health",
+      "type": "hub",
+      "category": "sleep-health",
+      "intent": "informational"
+    },
+    {
+      "path": "/insomnia",
+      "parent": "/sleep-health",
+      "type": "condition",
+      "category": "sleep-health",
+      "intent": "informational"
+    },
+    {
+      "path": "/parasomnias",
+      "parent": "/sleep-health",
+      "type": "condition",
+      "category": "sleep-health",
+      "intent": "informational"
+    },
+    {
+      "path": "/excessive-sleepiness",
+      "parent": "/sleep-health",
+      "type": "symptom",
+      "category": "sleep-health",
+      "intent": "informational"
+    },
+    {
+      "path": "/sleep-apnea",
+      "parent": "/sleep-health",
+      "type": "condition",
+      "category": "sleep-health",
+      "intent": "informational"
+    },
+    {
+      "path": "/sleep-apnea/obstructive-sleep-apnea",
+      "parent": "/sleep-health",
+      "type": "condition",
+      "category": "sleep-health",
+      "intent": "informational"
+    },
+    {
+      "path": "/sleep-apnea/central-sleep-apnea",
+      "parent": "/sleep-health",
+      "type": "condition",
+      "category": "sleep-health",
+      "intent": "informational"
+    },
+    {
+      "path": "/parasomnias/sleepwalking",
+      "parent": "/sleep-health",
+      "type": "condition",
+      "category": "sleep-health",
+      "intent": "informational"
+    },
+    {
+      "path": "/bruxism",
+      "parent": "/sleep-health",
+      "type": "condition",
+      "category": "sleep-health",
+      "intent": "informational"
+    },
+    {
+      "path": "/restless-legs-syndrome",
+      "parent": "/sleep-health",
+      "type": "condition",
+      "category": "sleep-health",
+      "intent": "informational"
+    },
+    {
+      "path": "/cpap",
+      "parent": "/sleep-health",
+      "type": "guide",
+      "category": "sleep-health",
+      "intent": "hybrid"
+    },
+    {
+      "path": "/insomnia/treatment/what-to-do-when-you-cant-sleep",
+      "parent": "/sleep-health",
+      "type": "guide",
+      "category": "sleep-health",
+      "intent": "informational"
+    },
+    {
+      "path": "/sleep-hygiene",
+      "parent": "/sleep-health",
+      "type": "guide",
+      "category": "sleep-health",
+      "intent": "informational"
+    },
+    {
+      "path": "/sleep-aids/melatonin",
+      "parent": "/sleep-health",
+      "type": "guide",
+      "category": "sleep-health",
+      "intent": "informational"
+    },
+    {
+      "path": "/sleep-aids/magnesium",
+      "parent": "/sleep-health",
+      "type": "guide",
+      "category": "sleep-health",
+      "intent": "informational"
+    },
+    {
+      "path": "/sleep-aids",
+      "parent": "/sleep-health",
+      "type": "guide",
+      "category": "sleep-health",
+      "intent": "hybrid"
+    },
+    {
+      "path": "/sleep-calculator",
+      "parent": "/sleep-health",
+      "type": "tool",
+      "category": "sleep-health",
+      "intent": "informational"
+    },
+    {
+      "path": "/sleep-quiz",
+      "parent": "/sleep-health",
+      "type": "tool",
+      "category": "trust-commercial",
+      "intent": "lead-gen"
+    },
+    {
+      "path": "/how-sleep-works",
+      "parent": "/sleep-health",
+      "type": "article",
+      "category": "sleep-health",
+      "intent": "informational"
+    },
+    {
+      "path": "/circadian-rhythm",
+      "parent": "/sleep-health",
+      "type": "article",
+      "category": "sleep-health",
+      "intent": "informational"
+    },
+    {
+      "path": "/stages-of-sleep",
+      "parent": "/sleep-health",
+      "type": "article",
+      "category": "sleep-health",
+      "intent": "informational"
+    },
+    {
+      "path": "/snoring",
+      "parent": "/sleep-health",
+      "type": "condition",
+      "category": "sleep-health",
+      "intent": "informational"
+    },
+    {
+      "path": "/sleep-deprivation",
+      "parent": "/sleep-health",
+      "type": "condition",
+      "category": "sleep-health",
+      "intent": "informational"
+    },
+    {
+      "path": "/how-electronics-affect-sleep",
+      "parent": "/sleep-health",
+      "type": "article",
+      "category": "sleep-health",
+      "intent": "informational"
+    },
+    {
+      "path": "/sleep-statistics",
+      "parent": "/sleep-health",
+      "type": "data",
+      "category": "sleep-health",
+      "intent": "informational"
+    },
+    {
+      "path": "/how-sleep-works/how-much-sleep-do-we-really-need",
+      "parent": "/sleep-health",
+      "type": "article",
+      "category": "sleep-health",
+      "intent": "informational"
+    },
+    {
+      "path": "/baby-sleep",
+      "parent": "/baby-sleep",
+      "type": "hub",
+      "category": "baby-sleep",
+      "intent": "informational"
+    },
+    {
+      "path": "/children-and-sleep/how-much-sleep-do-kids-need",
+      "parent": "/baby-sleep",
+      "type": "article",
+      "category": "baby-sleep",
+      "intent": "informational"
+    },
+    {
+      "path": "/baby-sleep/baby-sleep-cycle",
+      "parent": "/baby-sleep",
+      "type": "article",
+      "category": "baby-sleep",
+      "intent": "informational"
+    },
+    {
+      "path": "/baby-sleep/best-room-temperature-for-sleeping-baby",
+      "parent": "/baby-sleep",
+      "type": "article",
+      "category": "baby-sleep",
+      "intent": "informational"
+    },
+    {
+      "path": "/baby-sleep/sleep-training",
+      "parent": "/baby-sleep",
+      "type": "guide",
+      "category": "baby-sleep",
+      "intent": "informational"
+    },
+    {
+      "path": "/about-us",
+      "parent": "/about-us",
+      "type": "trust",
+      "category": "trust",
+      "intent": "trust"
+    },
+    {
+      "path": "/about-us/meet-our-team",
+      "parent": "/about-us",
+      "type": "trust",
+      "category": "trust",
+      "intent": "trust"
+    },
+    {
+      "path": "/about-us/medical-advisory-board",
+      "parent": "/about-us",
+      "type": "trust",
+      "category": "trust",
+      "intent": "trust"
+    },
+    {
+      "path": "/about-us/editorial-policy",
+      "parent": "/about-us",
+      "type": "policy",
+      "category": "trust",
+      "intent": "trust"
+    },
+    {
+      "path": "/about-us/how-we-test-products",
+      "parent": "/about-us",
+      "type": "methodology",
+      "category": "trust",
+      "intent": "trust-commercial"
+    },
+    {
+      "path": "/about-us/advertising-disclosure",
+      "parent": "/about-us",
+      "type": "policy",
+      "category": "trust",
+      "intent": "trust-commercial"
+    },
+    {
+      "path": "/privacy-policy",
+      "parent": "/about-us",
+      "type": "policy",
+      "category": "trust",
+      "intent": "trust"
+    },
+    {
+      "path": "/terms-and-conditions",
+      "parent": "/about-us",
+      "type": "policy",
+      "category": "trust",
+      "intent": "trust"
+    },
+    {
+      "path": "/accessibility-statement",
+      "parent": "/about-us",
+      "type": "policy",
+      "category": "trust",
+      "intent": "trust"
+    }
+  ],
+  "records": [
+    {
+      "url": "https://www.sleepfoundation.org",
+      "path": "/",
+      "title": "Home",
+      "type": "home",
+      "intent": "hybrid",
+      "category": "trust-commercial",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/mattresses",
+      "path": "/mattresses",
+      "title": "Best Mattress of 2026",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "mattresses",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-mattress/best-mattress-side-sleepers",
+      "path": "/best-mattress/best-mattress-side-sleepers",
+      "title": "Best Mattress for Side Sleepers",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "mattresses",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-mattress/best-mattress-back-pain",
+      "path": "/best-mattress/best-mattress-back-pain",
+      "title": "Best Mattress for Back Pain",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "mattresses",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-mattress/best-mattress-hip-pain",
+      "path": "/best-mattress/best-mattress-hip-pain",
+      "title": "Best Mattress for Hip Pain",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "mattresses",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-mattress/best-mattress-heavy-people",
+      "path": "/best-mattress/best-mattress-heavy-people",
+      "title": "Best Mattress for Heavy People",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "mattresses",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-mattress/memory-foam-mattress",
+      "path": "/best-mattress/memory-foam-mattress",
+      "title": "Best Memory Foam Mattress",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "mattresses",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-mattress/latex-mattress",
+      "path": "/best-mattress/latex-mattress",
+      "title": "Best Latex Mattress",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "mattresses",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-mattress/innerspring-mattress",
+      "path": "/best-mattress/innerspring-mattress",
+      "title": "Best Innerspring Mattress",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "mattresses",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-mattress/hybrid-mattress",
+      "path": "/best-mattress/hybrid-mattress",
+      "title": "Best Hybrid Mattress",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "mattresses",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-mattress/cooling-mattress",
+      "path": "/best-mattress/cooling-mattress",
+      "title": "Best Cooling Mattress",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "mattresses",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-mattress/firm-mattress",
+      "path": "/best-mattress/firm-mattress",
+      "title": "Best Firm Mattress",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "mattresses",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-mattress/organic-mattress",
+      "path": "/best-mattress/organic-mattress",
+      "title": "Best Organic Mattress",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "mattresses",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-mattress/most-comfortable-mattress",
+      "path": "/best-mattress/most-comfortable-mattress",
+      "title": "Most Comfortable Mattress",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "mattresses",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-mattress/mattress-in-a-box",
+      "path": "/best-mattress/mattress-in-a-box",
+      "title": "Best Mattress in a Box",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "mattresses",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-mattress/best-affordable-mattress",
+      "path": "/best-mattress/best-affordable-mattress",
+      "title": "Best Affordable Mattress",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "mattresses",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-mattress/best-king-size-mattress",
+      "path": "/best-mattress/best-king-size-mattress",
+      "title": "Best King Size Mattress",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "mattresses",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/mattress-information/mattress-sizes",
+      "path": "/mattress-information/mattress-sizes",
+      "title": "Mattress Sizes 101",
+      "type": "guide",
+      "intent": "informational",
+      "category": "mattresses",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/mattress-information/what-is-memory-foam",
+      "path": "/mattress-information/what-is-memory-foam",
+      "title": "What is Memory Foam?",
+      "type": "guide",
+      "intent": "informational",
+      "category": "mattresses",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/mattress-comparisons/nectar-vs-casper",
+      "path": "/mattress-comparisons/nectar-vs-casper",
+      "title": "Nectar vs. Casper",
+      "type": "comparison",
+      "intent": "commercial",
+      "category": "mattresses",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/mattress-reviews/casper-mattress-review",
+      "path": "/mattress-reviews/casper-mattress-review",
+      "title": "Casper Mattress Review",
+      "type": "review",
+      "intent": "commercial",
+      "category": "mattresses",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/mattress-reviews/saatva-mattress-review",
+      "path": "/mattress-reviews/saatva-mattress-review",
+      "title": "Saatva Mattress Review",
+      "type": "review",
+      "intent": "commercial",
+      "category": "mattresses",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/bedding",
+      "path": "/bedding",
+      "title": "The Best Bedding of 2026",
+      "type": "hub",
+      "intent": "commercial",
+      "category": "bedding",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-pillows",
+      "path": "/best-pillows",
+      "title": "The Best Pillows of 2026",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "bedding",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-pillows/best-pillows-side-sleepers",
+      "path": "/best-pillows/best-pillows-side-sleepers",
+      "title": "Best Pillows for Side Sleepers",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "bedding",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-pillows/best-pillows-neck-pain",
+      "path": "/best-pillows/best-pillows-neck-pain",
+      "title": "Best Pillows for Neck Pain",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "bedding",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-sheets",
+      "path": "/best-sheets",
+      "title": "Top-Rated Bed Sheets",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "bedding",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-sheets/best-cooling-sheets",
+      "path": "/best-sheets/best-cooling-sheets",
+      "title": "Best Cooling Sheets",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "bedding",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-weighted-blankets",
+      "path": "/best-weighted-blankets",
+      "title": "The Best Weighted Blankets of 2026",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "bedding",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-comforters",
+      "path": "/best-comforters",
+      "title": "The Best Comforters",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "bedding",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-mattress-toppers",
+      "path": "/best-mattress-toppers",
+      "title": "The Best Mattress Toppers",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "bedding",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-mattress-pads",
+      "path": "/best-mattress-pads",
+      "title": "Best Mattress Pads",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "bedding",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-mattress-protectors",
+      "path": "/best-mattress-protectors",
+      "title": "The Best Mattress Protectors of 2026",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "bedding",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/sleep-solutions",
+      "path": "/sleep-solutions",
+      "title": "All Sleep Solutions",
+      "type": "hub",
+      "intent": "hybrid",
+      "category": "sleep-solutions",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/sleep-studies/at-home-sleep-study",
+      "path": "/sleep-studies/at-home-sleep-study",
+      "title": "At Home Sleep Study",
+      "type": "lead-gen",
+      "intent": "commercial",
+      "category": "sleep-solutions",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/sleep-studies/how-does-a-sleep-study-work",
+      "path": "/sleep-studies/how-does-a-sleep-study-work",
+      "title": "How Does a Sleep Study Work?",
+      "type": "guide",
+      "intent": "informational",
+      "category": "sleep-solutions",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/sleep-studies/how-much-does-a-sleep-study-cost",
+      "path": "/sleep-studies/how-much-does-a-sleep-study-cost",
+      "title": "How Much Does a Sleep Study Cost?",
+      "type": "guide",
+      "intent": "hybrid",
+      "category": "sleep-solutions",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-cpap-machine",
+      "path": "/best-cpap-machine",
+      "title": "The Best CPAP Machines",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "sleep-solutions",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-cpap-masks",
+      "path": "/best-cpap-masks",
+      "title": "Top-Rated CPAP Masks",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "sleep-solutions",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-anti-snoring-mouthpieces-and-mouthguards",
+      "path": "/best-anti-snoring-mouthpieces-and-mouthguards",
+      "title": "The Best Anti-Snoring Mouthpieces",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "sleep-solutions",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/snoring/mouth-taping",
+      "path": "/snoring/mouth-taping",
+      "title": "Mouth Taping",
+      "type": "article",
+      "intent": "informational",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/sleep-apnea/cpap-alternatives",
+      "path": "/sleep-apnea/cpap-alternatives",
+      "title": "CPAP Alternatives",
+      "type": "guide",
+      "intent": "hybrid",
+      "category": "sleep-solutions",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-sleep-apps",
+      "path": "/best-sleep-apps",
+      "title": "The Best Sleep Apps of 2026",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "sleep-solutions",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-sleep-supplements/best-magnesium-supplements",
+      "path": "/best-sleep-supplements/best-magnesium-supplements",
+      "title": "The Best Magnesium Supplements",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "sleep-solutions",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-sleep-supplements",
+      "path": "/best-sleep-supplements",
+      "title": "Best Sleep Supplements",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "sleep-solutions",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-sleep-trackers",
+      "path": "/best-sleep-trackers",
+      "title": "The Best Sleep Trackers We've Tested",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "sleep-solutions",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-white-noise-machines",
+      "path": "/best-white-noise-machines",
+      "title": "Top-Rated White Noise Machines",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "sleep-solutions",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/best-adjustable-beds",
+      "path": "/best-adjustable-beds",
+      "title": "The Best Adjustable Beds",
+      "type": "best-of",
+      "intent": "commercial",
+      "category": "sleep-solutions",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/sleep-health",
+      "path": "/sleep-health",
+      "title": "All Sleep Health",
+      "type": "hub",
+      "intent": "informational",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/insomnia",
+      "path": "/insomnia",
+      "title": "Insomnia",
+      "type": "condition",
+      "intent": "informational",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/parasomnias",
+      "path": "/parasomnias",
+      "title": "Parasomnias",
+      "type": "condition",
+      "intent": "informational",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/excessive-sleepiness",
+      "path": "/excessive-sleepiness",
+      "title": "Excessive Sleepiness",
+      "type": "symptom",
+      "intent": "informational",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/sleep-apnea",
+      "path": "/sleep-apnea",
+      "title": "Sleep Apnea",
+      "type": "condition",
+      "intent": "informational",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/sleep-apnea/obstructive-sleep-apnea",
+      "path": "/sleep-apnea/obstructive-sleep-apnea",
+      "title": "Obstructive Sleep Apnea",
+      "type": "condition",
+      "intent": "informational",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/sleep-apnea/central-sleep-apnea",
+      "path": "/sleep-apnea/central-sleep-apnea",
+      "title": "Central Sleep Apnea",
+      "type": "condition",
+      "intent": "informational",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/parasomnias/sleepwalking",
+      "path": "/parasomnias/sleepwalking",
+      "title": "Sleepwalking",
+      "type": "condition",
+      "intent": "informational",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/bruxism",
+      "path": "/bruxism",
+      "title": "Bruxism",
+      "type": "condition",
+      "intent": "informational",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/restless-legs-syndrome",
+      "path": "/restless-legs-syndrome",
+      "title": "Restless Legs Syndrome",
+      "type": "condition",
+      "intent": "informational",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/cpap",
+      "path": "/cpap",
+      "title": "CPAP",
+      "type": "guide",
+      "intent": "hybrid",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/insomnia/treatment/what-to-do-when-you-cant-sleep",
+      "path": "/insomnia/treatment/what-to-do-when-you-cant-sleep",
+      "title": "What to Do When You Can't Sleep",
+      "type": "guide",
+      "intent": "informational",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/sleep-hygiene",
+      "path": "/sleep-hygiene",
+      "title": "Sleep Hygiene",
+      "type": "guide",
+      "intent": "informational",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/sleep-aids/melatonin",
+      "path": "/sleep-aids/melatonin",
+      "title": "Melatonin",
+      "type": "guide",
+      "intent": "informational",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/sleep-aids/magnesium",
+      "path": "/sleep-aids/magnesium",
+      "title": "Magnesium",
+      "type": "guide",
+      "intent": "informational",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/sleep-aids",
+      "path": "/sleep-aids",
+      "title": "Sleep Aids",
+      "type": "guide",
+      "intent": "hybrid",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/sleep-calculator",
+      "path": "/sleep-calculator",
+      "title": "Sleep Calculator",
+      "type": "tool",
+      "intent": "informational",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/sleep-quiz",
+      "path": "/sleep-quiz",
+      "title": "Sleep Quiz",
+      "type": "tool",
+      "intent": "lead-gen",
+      "category": "trust-commercial",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/how-sleep-works",
+      "path": "/how-sleep-works",
+      "title": "How Sleep Works",
+      "type": "article",
+      "intent": "informational",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/circadian-rhythm",
+      "path": "/circadian-rhythm",
+      "title": "Circadian Rhythm",
+      "type": "article",
+      "intent": "informational",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/stages-of-sleep",
+      "path": "/stages-of-sleep",
+      "title": "The Stages of Sleep",
+      "type": "article",
+      "intent": "informational",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/snoring",
+      "path": "/snoring",
+      "title": "Snoring",
+      "type": "condition",
+      "intent": "informational",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/sleep-deprivation",
+      "path": "/sleep-deprivation",
+      "title": "Sleep Deprivation",
+      "type": "condition",
+      "intent": "informational",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/how-electronics-affect-sleep",
+      "path": "/how-electronics-affect-sleep",
+      "title": "How Electronics Affect Your Sleep",
+      "type": "article",
+      "intent": "informational",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/sleep-statistics",
+      "path": "/sleep-statistics",
+      "title": "Sleep Data & Research",
+      "type": "data",
+      "intent": "informational",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/how-sleep-works/how-much-sleep-do-we-really-need",
+      "path": "/how-sleep-works/how-much-sleep-do-we-really-need",
+      "title": "How Much Sleep Do We Need?",
+      "type": "article",
+      "intent": "informational",
+      "category": "sleep-health",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/baby-sleep",
+      "path": "/baby-sleep",
+      "title": "Babies and Sleep",
+      "type": "hub",
+      "intent": "informational",
+      "category": "baby-sleep",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/children-and-sleep/how-much-sleep-do-kids-need",
+      "path": "/children-and-sleep/how-much-sleep-do-kids-need",
+      "title": "How Much Sleep Do Babies and Kids Need?",
+      "type": "article",
+      "intent": "informational",
+      "category": "baby-sleep",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/baby-sleep/baby-sleep-cycle",
+      "path": "/baby-sleep/baby-sleep-cycle",
+      "title": "How Your Baby’s Sleep Cycle Differs",
+      "type": "article",
+      "intent": "informational",
+      "category": "baby-sleep",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/baby-sleep/best-room-temperature-for-sleeping-baby",
+      "path": "/baby-sleep/best-room-temperature-for-sleeping-baby",
+      "title": "Best Room Temperature for a Sleeping Baby",
+      "type": "article",
+      "intent": "informational",
+      "category": "baby-sleep",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/baby-sleep/sleep-training",
+      "path": "/baby-sleep/sleep-training",
+      "title": "Sleep Training for Babies",
+      "type": "guide",
+      "intent": "informational",
+      "category": "baby-sleep",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/about-us",
+      "path": "/about-us",
+      "title": "About Us",
+      "type": "trust",
+      "intent": "trust",
+      "category": "trust",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/about-us/meet-our-team",
+      "path": "/about-us/meet-our-team",
+      "title": "Our Team",
+      "type": "trust",
+      "intent": "trust",
+      "category": "trust",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/about-us/medical-advisory-board",
+      "path": "/about-us/medical-advisory-board",
+      "title": "Medical Advisory Board",
+      "type": "trust",
+      "intent": "trust",
+      "category": "trust",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/about-us/editorial-policy",
+      "path": "/about-us/editorial-policy",
+      "title": "Editorial Policy",
+      "type": "policy",
+      "intent": "trust",
+      "category": "trust",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/about-us/how-we-test-products",
+      "path": "/about-us/how-we-test-products",
+      "title": "How We Review Products",
+      "type": "methodology",
+      "intent": "trust-commercial",
+      "category": "trust",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/about-us/advertising-disclosure",
+      "path": "/about-us/advertising-disclosure",
+      "title": "Advertising Disclosure",
+      "type": "policy",
+      "intent": "trust-commercial",
+      "category": "trust",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/privacy-policy",
+      "path": "/privacy-policy",
+      "title": "Privacy Policy",
+      "type": "policy",
+      "intent": "trust",
+      "category": "trust",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/terms-and-conditions",
+      "path": "/terms-and-conditions",
+      "title": "Terms & Conditions",
+      "type": "policy",
+      "intent": "trust",
+      "category": "trust",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    },
+    {
+      "url": "https://www.sleepfoundation.org/accessibility-statement",
+      "path": "/accessibility-statement",
+      "title": "Accessibility Statement",
+      "type": "policy",
+      "intent": "trust",
+      "category": "trust",
+      "confidence": "VERIFIED",
+      "evidence": "Seeded from live navigation/pages observed 2026-05-06 via web open results."
+    }
+  ]
+}
